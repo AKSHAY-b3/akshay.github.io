@@ -4,6 +4,8 @@
   "version": "1.0.0",
   "engines": {
     "node": "10.14.2"
-  }
+  },
+  "scripts":{ "start": "node index.js" } index.js- var port = process.env.PORT || 3000;
+
 }
 
