@@ -1,5 +1,5 @@
-const http = require('http');
-
+var http = require('http');
+var port=process.env.PORT || 3000
  http.createServer((req, res) => {
 res.setHeader('Content-Type', 'text/html');
 
