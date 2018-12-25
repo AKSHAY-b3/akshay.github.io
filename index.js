@@ -5,4 +5,4 @@ res.setHeader('Content-Type', 'text/html');
 
 res.end('<h1>Hello World</h1>');
 
-}).listen(3000);
+}).listen(process.env.PORT,console.log("server running"));
